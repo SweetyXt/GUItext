@@ -9,7 +9,7 @@ public class InnerClassText extends JFrame {
     private JTextField nameField,displayField;
     private JButton exitButton;
     public InnerClassText(){
-        super("Inner Class Demonstration");
+        super("inner class text");
         Container container =getContentPane();
         container.setLayout(new FlowLayout());
         nameLabel=new JLabel("姓名");
